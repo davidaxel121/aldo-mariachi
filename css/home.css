@@ -1,0 +1,23 @@
+.navbar{
+    background-color: var(--color-blue);
+    /* color: var(--color-white) !important; */
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+    outline: 0 !important;
+}
+
+.menu-icon{
+    width: 1.5em;
+height: 1.5em;
+color: white !important;
+}
+
+.home-hero{
+    min-height: 60vh;
+}
