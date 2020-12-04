@@ -7,7 +7,7 @@
 	--color-white: #F5FAFF;
 	--color-gray: #F1F1E6;
   --color-blue: #005B93;
-  --light-blue-font: #0091BC;
+  --color-blue-light: #0091BC;
   }
   
   html,
@@ -22,3 +22,48 @@
   min-width: 100%;
   min-height: 100vh;
   }
+
+  h1 {
+	font-size: 5.9vw;
+  }
+  h2 {
+	font-size: 3.0vh;
+  }
+  p {
+	font-size: 2vmin;
+  }
+
+  .red{
+	  border: 2px solid red;
+  }
+
+  .blue{
+	  border: 2px solid blue;
+  }
+
+  /* Navbar */
+
+  .navbar{
+    background-color: var(--color-blue);
+    /* color: var(--color-white) !important; */
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar a:hover{
+    /* color: var(--color-gray) !important; */
+    color: gray !important;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+    outline: 0 !important;
+}
+
+.menu-icon{
+    width: 1.5em;
+    height: 1.5em;
+    color: white !important;
+}
