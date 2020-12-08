@@ -1,73 +1,110 @@
 /* Color schema reference from: https://mycolor.space/?hex=%23005B93&sub=1 */
 
-@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
 
 :root {
-	--color-black: #000000;
-	--color-black-two: #3D4756;
-	--color-white: #F5FAFF;
-	--color-gray: #F1F1E6;
-  --color-blue: #005B93;
-  --color-blue-light: #0091BC;
-  }
-  
-  html,
-  body,
-  * {
+  --color-black: #000000;
+  --color-black-two: #3d4756;
+  --color-white: #f5faff;
+  --color-gray: #f1f1e6;
+  --color-blue: #005b93;
+  --color-blue-light: #0091bc;
+}
+
+html,
+body,
+* {
   /* font-family: "Poppins",sans-serif !important; */
   margin: 0;
   padding: 0;
-  font-family: 'Signika', sans-serif;
-  }
+  font-family: "Signika", sans-serif;
+}
 
-  html, body{
+html,
+body {
   min-width: 100%;
   min-height: 100vh;
-  }
-
-  .red{
-	  border: 2px solid red;
-  }
-
-  .blue{
-	  border: 2px solid blue;
-  }
-
-  /* Navbar */
-
-  .navbar{
-    background-color: var(--color-blue);
 }
 
-.navbar a{
-    color: white !important;
+/* Font sizes */
+
+h1 {
+  font-size: 2.25rem;
 }
 
-.navbar a:hover{
-    color: gray !important;
+h2 {
+  font-size: 2rem;
 }
 
-.navbar-toggler{
-    border: 0 !important;
-    outline: 0 !important;
+h3 {
+  font-size: 1.9rem;
 }
 
-.menu-icon{
-    width: 1.5em;
-    height: 1.5em;
-    color: white !important;
+p {
+  font-size: 1.5rem;
+}
+
+ul {
+  font-size: 1.25rem;
+}
+
+.fab {
+  font-size: 1rem !important;
+}
+
+.footer-margin {
+  margin-bottom: 56px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: var(--color-blue);
+}
+
+.navbar-logo {
+  width: 120px;
+  height: auto;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.navbar a:hover {
+  color: gray !important;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.menu-icon {
+  width: 1.5em;
+  height: 1.5em;
+  color: white !important;
+}
+
+.margin-navbar {
+  margin-top: 56px;
 }
 
 /* Services section */
 
-.services-title{
-    background: rgb(120, 174, 236);
-background: linear-gradient(90deg, rgba(120,174,236,1) 0%, rgba(18,68,201,1) 77%, rgba(11,31,54,1) 100%);
+.services-title {
+  background: rgb(120, 174, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 174, 236, 1) 0%,
+    rgba(18, 68, 201, 1) 77%,
+    rgba(11, 31, 54, 1) 100%
+  );
 }
 
 ul {
-    list-style: none; /* Remove default bullets */
-  }
+  list-style: none; /* Remove default bullets */
+}
 
 /* ul, li{
 margin: 0 !important;
@@ -75,19 +112,24 @@ padding: 0 !important;
 } */
 
 .my-ul .my-li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: var(--color-blue); /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
-
-.footer-container{
-    background-color: black;
-    color: var(--color-white);
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--color-blue); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-.fab{
-    font-size: 2em;
+.footer-container {
+  background-color: black;
+  color: var(--color-white);
+}
+
+footer a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: gray;
+  font-style: none;
 }

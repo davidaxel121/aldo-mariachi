@@ -1,70 +1,68 @@
-
-
-.menu-icon{
-    width: 1.5em;
-    height: 1.5em;
-    color: white !important;
+.menu-icon {
+  width: 1.5em;
+  height: 1.5em;
+  color: white !important;
 }
 
-.home-hero{
-    min-height: 60vh;
-    background-image: url("../assets/images/hero-background.jpg"); 
-    background-color: var(--color-blue-light);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
+.home-hero {
+  min-height: 60vh;
+  background-image: url("../assets/images/hero-background.jpg");
+  background-color: var(--color-blue-light);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.home-hero-child{
-    min-height: 100%;
-    min-width: 100%;
+.home-hero-child {
+  min-height: 100%;
+  min-width: 100%;
 }
 
-.home-hero-child-container{
-    min-height: 100% !important;
-    min-width: 100% !important;
+.home-hero-child-container {
+  min-height: 100% !important;
+  min-width: 100% !important;
 }
 
-.home-right-bar{
-    background-color:  #005b937e;
-    min-height: 100%;
-    color: var(--color-white);
+.home-right-bar {
+  background-color: #005b937e;
+  min-height: 100%;
+  color: var(--color-white);
 }
 
-.white-box{
-    border: 3px solid white;
+.white-box {
+  border: 2px solid white;
 }
 
 /* Services section */
 
-.services-title{
-    background: rgb(120, 174, 236);
-background: linear-gradient(90deg, rgba(120,174,236,1) 0%, rgba(18,68,201,1) 77%, rgba(11,31,54,1) 100%);
+.services-title {
+  background: rgb(120, 174, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 174, 236, 1) 0%,
+    rgba(18, 68, 201, 1) 77%,
+    rgba(11, 31, 54, 1) 100%
+  );
 }
 
 ul {
-    list-style: none; /* Remove default bullets */
-  }
-
-/* ul, li{
-margin: 0 !important;
-padding: 0 !important;
-} */
-
-.my-ul .my-li::before {
-    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: var(--color-blue); /* Change the color */
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
-
-.footer-container{
-    background-color: black;
-    color: var(--color-white);
+  list-style: none; /* Remove default bullets */
 }
 
-.fab{
-    font-size: 2em;
+.my-ul .my-li::before {
+  content: "\2022";
+  color: var(--color-blue);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.footer-container {
+  background-color: black;
+  color: var(--color-white);
+}
+
+.fab {
+  font-size: 2em;
 }

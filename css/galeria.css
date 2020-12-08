@@ -1,3 +1,8 @@
-.galeria-section{
-    margin-top: 40px;
+.galeria-section {
+  margin-top: 40px;
+}
+
+.img-galery {
+  width: 60%;
+  height: auto;
 }

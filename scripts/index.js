@@ -1,7 +1,7 @@
-setTimeout(function(){
+setTimeout(function () {
     goToHome();
- }, 5000);
+}, 5000);
 
- function goToHome(){
-     window.location = 'home.html';
- }
+function goToHome() {
+    window.location = 'home.html';
+}
