@@ -14,13 +14,8 @@
   align-items: center;
 }
 
-.main-logo {
-  max-width: 100%;
-}
-
 .main-button {
   border: 1px solid var(--color-white);
   color: var(--color-white);
-  font-size: 1em;
-  font-weight: 600;
+  padding: auto;
 }

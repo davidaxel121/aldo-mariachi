@@ -1,7 +1,9 @@
 /* Color schema reference from: https://mycolor.space/?hex=%23005B93&sub=1 */
 
 @import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+/* General styles */
 :root {
   --color-black: #000000;
   --color-black-two: #3d4756;
@@ -14,7 +16,6 @@
 html,
 body,
 * {
-  /* font-family: "Poppins",sans-serif !important; */
   margin: 0;
   padding: 0;
   font-family: "Signika", sans-serif;
@@ -24,6 +25,16 @@ html,
 body {
   min-width: 100%;
   min-height: 100vh;
+}
+
+.cursive{
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400 !important;
+  font-size: 2.5rem !important;
+}
+
+.footer-margin {
+  margin-bottom: 56px;
 }
 
 /* Font sizes */
@@ -50,10 +61,6 @@ ul {
 
 .fab {
   font-size: 1rem !important;
-}
-
-.footer-margin {
-  margin-bottom: 56px;
 }
 
 /* Navbar */
@@ -90,35 +97,7 @@ ul {
   margin-top: 56px;
 }
 
-/* Services section */
-
-.services-title {
-  background: rgb(120, 174, 236);
-  background: linear-gradient(
-    90deg,
-    rgba(120, 174, 236, 1) 0%,
-    rgba(18, 68, 201, 1) 77%,
-    rgba(11, 31, 54, 1) 100%
-  );
-}
-
-ul {
-  list-style: none; /* Remove default bullets */
-}
-
-/* ul, li{
-margin: 0 !important;
-padding: 0 !important;
-} */
-
-.my-ul .my-li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: var(--color-blue); /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
+/* Footer styles */
 
 .footer-container {
   background-color: black;
@@ -129,7 +108,7 @@ footer a {
   color: white;
 }
 
-.navbar a:hover {
-  color: gray;
-  font-style: none;
+footer a:hover {
+  color: var(--color-blue);
+  text-decoration: none;
 }
