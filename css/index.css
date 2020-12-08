@@ -18,4 +18,5 @@
   border: 1px solid var(--color-white);
   color: var(--color-white);
   padding: auto;
+  border-radius: 10px !important;
 }
